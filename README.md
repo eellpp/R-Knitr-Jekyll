@@ -33,6 +33,12 @@ build_jekyll.sh -c
 #  to build a specific script
 build_jekyll.sh -f _knitr/<filename>.Rmd 
 ```
+3. This will create the .md file in the _posts directory
+build the site
+
+```
+build_jekyll.sh -b
+```
 
 Reference:
 
