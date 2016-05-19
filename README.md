@@ -25,7 +25,6 @@ site.path <- "path/to/your/site/with/trailing/slash/"
 
 1. Create the .Rmd file in _knitr directory. 
 2. From the blog root director run
-
 ```
 # to convert all _knitr/*.Rmd files to _posts/*.md (does not overwrite existing md)
 build_jekyll.sh -c
@@ -33,7 +32,8 @@ build_jekyll.sh -c
 #  to build a specific script
 build_jekyll.sh -f _knitr/<filename>.Rmd 
 ```
-3. This will create the .md file in the _posts directory
+
+This will create the .md file in the _posts directory
 build the site
 
 ```
