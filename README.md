@@ -7,14 +7,14 @@ This script is by blogger [chepec](https://chepec.se/2014/07/16/knitr-jekyll.htm
 
 #### One Time
 
-1. Copy the build_jekyll.sh to root of the blog site and provide execute permission
+1) Copy the build_jekyll.sh to root of the blog site and provide execute permission
 Update the SITE variable in the build_jekyll.sh script
 
 ```
 SITE="path/to/your/site/without/trailing/slash"
 ```
 
-2. Copy the _knitr directory to root of the blog
+2) Copy the _knitr directory to root of the blog
 Open _knitr/render_post.R and update variable
 
 ```
